@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif;
+}
+
+.rectangle-1 {
+  width: 65%;
+  height: 879px;
+  background: rgba(239, 244, 240, 1);
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.logo {
+  color: rgba(32, 32, 32, 1);
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.nav-1 ul li {
+  display: inline-block;
+  margin: 0 40px;
+  list-style-type: none;
+}
+
+.nav-1 ul li a {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgba(138, 138, 138, 1);
+  text-decoration: none;
+}
+/* 
+.nav-1 ul li a::after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  position: absolute;
+} */
+.nav-2 ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  column-gap: 60px;
+}
+
+.nav-line {
+  height: 45px;
+  border: 1px solid rgba(138, 138, 138, 1);
+}
+#nav-home {
+  color: black;
+}
+.nav-border {
+  border: 2px solid;
+  border-radius: 5px;
+  width: 15px;
+  margin: 1px auto;
+}
