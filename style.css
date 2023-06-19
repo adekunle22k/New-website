@@ -46,13 +46,7 @@ body {
   color: rgba(138, 138, 138, 1);
   text-decoration: none;
 }
-/* 
-.nav-1 ul li a::after {
-  content: "";
-  width: 30px;
-  height: 3px;
-  position: absolute;
-} */
+
 .nav-2 ul {
   display: flex;
   align-items: center;
@@ -63,13 +57,3 @@ body {
 .nav-line {
   height: 45px;
   border: 1px solid rgba(138, 138, 138, 1);
-}
-#nav-home {
-  color: black;
-}
-.nav-border {
-  border: 2px solid;
-  border-radius: 5px;
-  width: 15px;
-  margin: 1px auto;
-}
