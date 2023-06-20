@@ -66,3 +66,91 @@ body {
   height: 45px;
   border: 1px solid rgba(138, 138, 138, 1);
 }
+
+.frame{
+    padding-top: 280px;
+    padding-left: 120px;
+}
+
+.frame .title{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(138, 138, 138, 1);
+}
+
+.frame .body{
+    font-size: 90px;
+    font-weight: bold;
+    color: rgba(8, 46, 33, 1);
+}
+
+.btns{
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.shopnow{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(8, 46, 33, 1);
+    padding: 25px 65px;
+    border: transparent;
+}
+
+.watchvideo{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.txt{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    margin-top: 40px;
+}
+
+.frame1{
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.line{
+    width: 2px;
+    height: 150px;
+    background: rgba(138, 138, 138, 1);
+
+}
+
+span{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(138, 138, 138, 1);
+}
+
+.rectangle-image{
+    position: absolute;
+    top: 150px;
+    left: 835px;
+}
+
+.aboutus{
+    padding-top: 920px;
+}
+
+.head{
+    font-size: 55px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
