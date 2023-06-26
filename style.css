@@ -162,6 +162,8 @@ span{
 
 .rectangles{
     display: flex;
+    align-items: center;
+    column-gap: 25px;
 }
 
 .rectangle-10{
@@ -169,7 +171,7 @@ span{
     height: 411px;
     border: 1px solid #E4EEE6;
     margin-top: 53px;
-    align-items: center;
+    padding-top: 90px;
 }
 
 .rectangle-11{
@@ -177,6 +179,7 @@ span{
     height: 411px;
     border: 1px solid #E4EEE6;
     margin-top: 53px;
+    padding-top: 90px;
 }
 
 .rectangle-12{
@@ -184,4 +187,63 @@ span{
     height: 411px;
     border: 1px solid #E4EEE6;
     margin-top: 53px;
+    padding-top: 90px;
 }
+
+.text-head{
+    text-align: center;
+    color: #082E21;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.text-10{
+    color: #8A8A8A;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.box-image{
+    margin-left: 130px;
+}
+
+.product{
+    margin-top: 130px;
+}
+
+.product-head{
+    color:  #082E21;
+    text-align: center;
+    font-size: 56px;
+}
+
+.rects{
+    display: flex;
+    align-items: center;
+    column-gap: 55px;
+    margin-left: 160px;
+}
+
+.rectangle-16{
+    width: 100%;
+    height: 905px;
+    background: #E4EEE6;
+    position: absolute;
+    margin-top: 145px;
+    z-index: -1;
+}
+
+.rect-image-13{
+    margin-bottom: 65px;
+    display: block;
+}
+
+.rect-image-15{
+    margin-bottom: 65px;
+}
+
+.rects .adjusted{
+    margin-top: 100px;
+}
+
