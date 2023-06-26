@@ -160,11 +160,16 @@ span{
     font-size: 20px;
 }
 
+.rectangles{
+    display: flex;
+}
+
 .rectangle-10{
     width: 384px;
     height: 411px;
     border: 1px solid #E4EEE6;
     margin-top: 53px;
+    align-items: center;
 }
 
 .rectangle-11{
